@@ -1,7 +1,9 @@
 pluginManagement {
     includeBuild 'my_custom_build'
+    includeBuild 'my_other_custom_build'
 }
 
 rootProject.name = 'GradleIncludedBuild'
 
 include("myapp")
+include("myotherapp")

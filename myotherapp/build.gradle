@@ -1,10 +1,10 @@
 plugins {
-    id "com.example.my_custom_build"
+    id "com.example.my_other_custom_build"
     id 'org.jetbrains.kotlin.jvm'
     id 'application'
 }
 
-loadMyCustomBuild()
+loadMyOtherCustomBuild()
 
 application {
     mainClassName = "com.example.MainKt"
