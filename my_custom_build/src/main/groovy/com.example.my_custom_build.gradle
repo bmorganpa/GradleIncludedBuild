@@ -1,4 +1,4 @@
-ext.loadMyCustomBuild = { mainClass ->
+ext.loadMyCustomBuild = { ->
     repositories {
         mavenCentral()
     }

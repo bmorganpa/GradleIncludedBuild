@@ -4,4 +4,8 @@ plugins {
     id 'application'
 }
 
-loadMyCustomBuild("com.example.MainKt")
+loadMyCustomBuild()
+
+application {
+    mainClassName = "com.example.MainKt"
+}
