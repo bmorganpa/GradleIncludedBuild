@@ -1,0 +1,7 @@
+pluginManagement {
+    includeBuild 'my_custom_build'
+}
+
+rootProject.name = 'GradleIncludedBuild'
+
+include("myapp")
